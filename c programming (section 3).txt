@@ -1,0 +1,172 @@
+C PROGRAMMING.............
+SECTION 2.....................
+
+SWITCH STATEMENT...............
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("enter the month : ");
+    scanf("%d",&n);
+    switch(n)
+    {
+        case 1: printf("jan");break;
+        case 2: printf("feb");break;
+        case 3: printf("march");break;
+        case 4: printf("april");break;
+        default: printf("invalid");break;
+    }
+    
+}
+
+output//
+3
+march
+
+GOTO STATEMENT..........
+#include<stdio.h>
+void main()
+{
+    int n;
+    ss: 
+    if(n<=10)
+    {
+        printf("%d\n",n);
+        n++;
+        goto ss;
+        
+    }
+}    
+
+output//
+4
+0
+1
+2
+3
+4
+
+IF ELAE STATEMENT...............
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("enter no: ");
+    scanf("%d",&n);
+    if(n/2==0)
+    
+        printf("odd");
+    else
+    
+        printf("even");
+        
+    
+}    
+
+ouput//
+2
+odd
+
+WHILE STATEMENT.............
+FACTORIAL.............
+#include<stdio.h>
+void main()
+{
+  int n,fact=1,i;
+  printf("enter the number: ");
+  scanf("%d",&n);
+  while(i<=n)
+  {
+    f=f*i;
+    i++;
+  } 
+  printf("%d%d",n,f);
+}
+ 
+output//
+5
+125
+
+
+FOR STATEMENT...........
+#include <stdio.h>
+void main()
+{     
+    int i;
+	printf("The first 10 natural numbers are:\n");
+	for (i=1;i<=10;i++)
+	{      
+		printf("%d ",i);
+	}
+printf("\n");
+}
+
+output// 
+5
+1 2 3 4 5
+
+ARRAY STATEMENT...........
+DISPLAY N ELEMENTS IN C ARRAY.......
+#include<stdio.h>
+void main()
+{
+    int a[10],i,n,s,r;
+    printf("enter the value : ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        printf("%d",a[i]);
+    }
+    
+}
+
+
+output//
+5
+1
+2
+3
+4
+5
+
+REVERED THE NUMBER IN ARRAY CONCEPT............
+#include<stdio.h>
+void main()
+{
+    int a[10],i,n,s,r;
+    printf("enter the value : ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        printf("%d",a[i]);
+    }
+    for(i=n-1;i>=0;i--)
+    {
+      printf("%d",a[i]);
+    }
+}
+
+output//
+2
+1
+5
+8
+reversed number
+8
+5
+1
+2
+
+
+
+ 
+
+
